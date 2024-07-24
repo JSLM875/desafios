@@ -64,4 +64,13 @@ OPTIONS: Recuperar as opções de comunicação permitidas para um recurso ou o 
 TRACE: Realizar um loopback de teste para verificar o caminho percorrido por uma mensagem até destino final.
 
 
-                                   
+                             desafio 4
+Uma camada, em arquitetura de software, é um nível de abstração que agrupa componentes ou funcionalidades de uma aplicação com responsabilidades semelhantes. Cada camada tem um papel específico na estrutura do software, ajudando a organizar o código de maneira que seja mais fácil de entender, manter e escalar.
+
+Entity: Em uma API organizada em camadas, a camada Entity é responsável por representar o modelo de dados da aplicação, definindo classes que correspondem às tabelas do banco de dados. 
+
+Controller: A camada Controller lida com requisições HTTP, atuando como intermediária entre o cliente e a lógica de negócio, interpretando dados da requisição e retornando respostas apropriadas. 
+
+Service: A camada Service contém a lógica de negócio da aplicação, orquestrando operações complexas e chamando a camada de Repository para realizar operações de acesso e manipulação de dados. 
+
+Repository: A camada Repository é responsável por gerenciar o acesso a dados e operações de persistência, realizando operações CRUD diretamente no banco de dados. 

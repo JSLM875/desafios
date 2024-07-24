@@ -16,7 +16,7 @@ usuarios = [
 },
 {
     'id': 3
-    'nome': 'flavin do pneu' 
+    'nome': 'flavin do pneu',   
     'idade': 30
 }.
 
